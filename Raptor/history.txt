@@ -1,0 +1,64 @@
+    1  cd D*
+    2  pwd
+    3  cd 
+    4  cd Desktop
+    5  ls
+    6  cat >file1.txt
+    7  mkdir folder1
+    8  cd folder1
+    9  cat >file1.txt
+   10  touch file2_touch.txt
+   11  touch file{2..6}.txt
+   12  ls
+   13  nano file10.txt
+   14  mkdir folder2
+   15  touch file{1..5}.txt
+   16  ls
+   17  cd ..
+   18  rm folder2
+   19  mskdir folder2
+   20  mkdir folder2
+   21  rm folder2
+   22  rm -rf folder2
+   23  ls
+   24  mkdir basics
+   25  cd basics
+   
+26  git init
+   
+27  git config user.name 8074829453
+   
+28  git config user.email bhargavikasii@gmail.com
+   
+29  git status
+  
+ 30  git commit -m "Initial msg for "
+   
+   
+32  git remote add basics https://github.com/8074829453/basics 
+  
+ 33  git remote -v
+   
+34  git puch -u basics master
+   
+35  git push -u basics master
+   
+36  toutouch file10.txt
+   
+37  touch file10.txt
+   
+38  ls
+   
+39  git status
+   
+40  git add file10.txt
+   41  git status
+   42  git commit -m "adding file 1"
+   43  git remote -v
+   44  git log
+   45  git push -u basics master
+   46  cd ..
+   47  mk history.txt
+   48  cat history.txt
+   49  touch history.txt
+   50  history>>history.txt
